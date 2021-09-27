@@ -370,7 +370,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1308027286}
         m_TargetAssemblyTypeName: SahneKontrolu, Assembly-CSharp
-        m_MethodName: "Sonrak\u0131Sahna"
+        m_MethodName: OyunSahnesineYonlen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

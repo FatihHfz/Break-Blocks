@@ -28,4 +28,5 @@ public class SahneKontrolu : MonoBehaviour
    {
        SceneManager.LoadScene(0);
    }
+   
 }
