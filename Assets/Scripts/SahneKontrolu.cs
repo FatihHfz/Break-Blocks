@@ -10,9 +10,22 @@ public class SahneKontrolu : MonoBehaviour
        int mevcutsahIndex = SceneManager.GetActiveScene().buildIndex;
        SceneManager.LoadScene(mevcutsahIndex + 1);
    }
+    public void SahneyeYonlen(string sahneIsmi)
+    {
+        SceneManager.LoadScene(sahneIsmi);
+    }
+   public void OyunSahnesineYonlen()
+   {
+       SceneManager.LoadScene(1);
+   }
 
    public void OyundanCık()
    {
        Application.Quit();
+   }
+
+   public void MenuSahnesineYonlen()
+   {
+       SceneManager.LoadScene(0);
    }
 }

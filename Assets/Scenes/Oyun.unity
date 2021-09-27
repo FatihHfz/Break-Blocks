@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5148828}
   - component: {fileID: 5148827}
+  - component: {fileID: 5148829}
   m_Layer: 0
   m_Name: "Kaybetme Alan\u0131"
   m_TagString: Untagged
@@ -180,6 +181,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5148829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5148826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4211733fed9b48b43b8c3df74bcdbabe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yonetici: {fileID: 0}
 --- !u!1 &688176667
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 763661615}
+  - component: {fileID: 763661616}
   m_Layer: 0
   m_Name: Sahne Kontrolu
   m_TagString: Untagged
@@ -331,6 +346,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &763661616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763661614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f4ab5b98e4dfc489cc933835b9cf11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665935318
 GameObject:
   m_ObjectHideFlags: 0
