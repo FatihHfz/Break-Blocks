@@ -22,7 +22,7 @@ public class oyunTopuKontrolu : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             oyunBasladiMi = true;
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(0f,16f);
+            this.GetComponent<Rigidbody2D>().velocity = new Vector3(3f,16f,0f);
             //oyuntop rigitboy çağırıldı ve istedimiz vectöre atadı
         }
     }
