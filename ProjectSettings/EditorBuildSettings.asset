@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/AnaMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Oyun.unity
+    path: Assets/Scenes/level01.unity
     guid: 283486ccdead0dd4793e238bdb791c39
+  - enabled: 1
+    path: Assets/Scenes/level02.unity
+    guid: c89efb9a4f758134bb0f608ce14db0ef
+  - enabled: 1
+    path: Assets/Scenes/level03.unity
+    guid: 7c8dd36659847db4084306d6e9e0a732
+  - enabled: 1
+    path: Assets/Scenes/level04.unity
+    guid: 67b39041f17d38b4486d779d870600c1
   - enabled: 1
     path: Assets/Scenes/Kaybetme.unity
     guid: be9e4a2ae5328fa4aafda23df3045e8f
