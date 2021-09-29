@@ -8,4 +8,4 @@ PhysicsMaterial2D:
   m_PrefabAsset: {fileID: 0}
   m_Name: oyunTopuOzelligi
   friction: 0
-  bounciness: 0.70710677
+  bounciness: 0.7071068
