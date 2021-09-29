@@ -28,5 +28,13 @@ public class SahneKontrolu : MonoBehaviour
    {
        SceneManager.LoadScene(0);
    }
+   public void BloklarinYokOlmasi()
+   {
+       if(Bloklar.kirilabilirBlokSayisi <= 0)
+       {
+       SonrakıSahne();
+       }
+   }
+   
    
 }

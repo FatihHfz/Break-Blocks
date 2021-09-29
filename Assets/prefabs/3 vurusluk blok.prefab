@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3803797216704006313}
   m_Layer: 0
   m_Name: 3 vurusluk blok
-  m_TagString: Untagged
+  m_TagString: kirilabilir
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19bcce5f257f684ab7aeed3b9f369ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  can: 3
+  blokGorunumleri:
+  - {fileID: 4033534971126519673, guid: efefac89ef2fa134795a8ebada167d8d, type: 3}
+  - {fileID: -3378036884604940024, guid: efefac89ef2fa134795a8ebada167d8d, type: 3}

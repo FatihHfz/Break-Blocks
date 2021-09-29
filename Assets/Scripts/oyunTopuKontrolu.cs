@@ -18,12 +18,19 @@ public class oyunTopuKontrolu : MonoBehaviour
         if(!oyunBasladiMi)
         {
             this.transform.position = oyunBari.transform.position + TopIleBarArasindakiMesafe;
+            /* if(Input.GetMouseButtonDown(0)) //tek kılik izni
+            {
+            oyunBasladiMi = true;
+            this.GetComponent<Rigidbody2D>().velocity = new Vector3(3f,16f,0f);
+            //oyuntop rigitboy çağırıldı ve istedimiz vectöre atadı
+            }
+            */
         }
         if(Input.GetMouseButtonDown(0))
         {
             oyunBasladiMi = true;
-            this.GetComponent<Rigidbody2D>().velocity = new Vector3(3f,16f,0f);
+            this.GetComponent<Rigidbody2D>().velocity = new Vector3(2f,16f,0f);
             //oyuntop rigitboy çağırıldı ve istedimiz vectöre atadı
-        }
+        } 
     }
 }
