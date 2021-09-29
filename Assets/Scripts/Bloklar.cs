@@ -17,7 +17,10 @@ public class Bloklar : MonoBehaviour
    private void OnCollisionEnter2D(Collision2D collision) 
    {
         VurulmaSayisi++;    
-        SonrakiSahne();
+        if (VurulmaSayisi >= can)
+        {
+            Destroy(gameObject);
+        }
    }
 
    public void SonrakiSahne()
